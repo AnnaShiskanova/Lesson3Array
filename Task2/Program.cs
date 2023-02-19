@@ -9,6 +9,8 @@ else if (i == 2)
     Console.WriteLine("x < 0 and y > 0");
 else if (i == 3)
     Console.WriteLine("x < 0 and y < 0");
-else
+else if (i == 4)
     Console.WriteLine("x > 0 and y < 0");
+else
+    Console.WriteLine("Incorrect number");
  
