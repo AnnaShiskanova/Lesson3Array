@@ -5,7 +5,7 @@
 
 System.Console.WriteLine("Enter a five-digit number");
 int n = Convert.ToInt32(Console.ReadLine());
-if (n / 10000 == 0 || n / 100000 > 9)
+if (n / 10000 == 0 || n / 10000 > 9)
 {
     Console.WriteLine("Incorrect number");
 }
