@@ -13,9 +13,6 @@ for (int i = 0; i < points.Length; i++)
     Console.WriteLine("Incorrect input");
     }
 }
-
-
-    
 if (points[0] > 0 && points[1] > 0)//x>0 and y>0,
     Console.WriteLine("1");
 else if (points[0] < 0 && points[1] > 0)//x<0 and y>0
